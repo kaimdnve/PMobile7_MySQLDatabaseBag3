@@ -104,8 +104,7 @@ public class TampilDataActivity extends AppCompatActivity {
                             angkatan = String.valueOf(mhs.getAngkatan());
                             if (tblMhs.getChildAt(i) == view)
                                 tblMhs.getChildAt(i).setBackgroundColor(Color.LTGRAY);
-                            else
-                                tblMhs.getChildAt(i).setBackgroundColor(Color.WHITE);
+                            else tblMhs.getChildAt(i).setBackgroundColor(Color.WHITE);
                         }
                     }
                 }
